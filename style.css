@@ -1,0 +1,12 @@
+#listitem:hover{
+scale: 1.01;
+background-color: lightgreen;
+}
+
+#listitem{
+transition: 200ms;
+}
+
+.completed li{
+    background-color: lightgreen;
+}
