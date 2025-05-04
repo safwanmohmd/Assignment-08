@@ -8,7 +8,6 @@ let listitem = document.getElementById("listitem")
 
 
 
-//btn
 
 let btngroup = document.querySelectorAll(".btn-dark")
 
@@ -94,4 +93,3 @@ function display() {
 
 
 
-// display();
