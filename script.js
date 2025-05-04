@@ -13,7 +13,7 @@ let listitem = document.getElementById("listitem")
 let btngroup = document.querySelectorAll(".btn-dark")
 
 
-filterTask = tasks;
+
 display()
 
 btngroup.forEach((exe) => {
