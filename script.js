@@ -38,6 +38,10 @@ form.addEventListener("submit", (e) => {
         status: "Active"
     };
 
+    if(taskInp.value == ''){
+        return alert("the task vaue cannot be empty")
+    }
+
     tasks.push(newTask);
 
     localStorage.setItem("tasks", JSON.stringify(tasks));
